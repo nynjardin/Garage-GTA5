@@ -37,7 +37,7 @@ Citizen.CreateThread(function ()
 					SetVehicleFixed(GetVehiclePedIsUsing(GetPlayerPed(-1)))
 					SetVehicleDeformationFixed(GetVehiclePedIsUsing(GetPlayerPed(-1)))
 					SetVehicleUndriveable(GetVehiclePedIsUsing(GetPlayerPed(-1)), false)
-					DrawSpecialText("Car ~h~~y~fixed~w~!!! Go! Go! Go!", 5000)
+					DrawSpecialText("Vehicle ~h~~y~fixed~w~!!! Go! Go! Go!", 5000)
 				end
 			end
 		end
