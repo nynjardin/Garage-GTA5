@@ -1,5 +1,5 @@
 local plyPed = GetPlayerPed(-1)
-local plyVeh = (GetVehiclePedIsUsing(GetPlayerPed(-1)))
+local plyVeh = GetVehiclePedIsUsing(GetPlayerPed(-1))
 local shortR = true
 
 -----------------------------------------------------------------------
@@ -35,7 +35,6 @@ vehicleRepairStation = {
 		{620.8434,  269.1009,  103.0895},
 		{2581.321,  362.0393,  108.4688}
 	}
-
 
 function DrawSpecialText(m_text, showtime)
     ClearPrints()
